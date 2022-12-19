@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__contacts {
+            padding-right: 10px;
+        }
+    }
+    .promo {
+        &__header {
+            padding-right: 10px;
+            font-size: 35px;
+        }
+        &__subheader {
+            padding-right: 10px;
+            font-size: 20px;
+        }
+        &__link {
+            margin-right: 15px;
+        }
+        .button {
+            &_main {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            max-width: 200px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            display: block;
+        }
+        &__name {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    
+}
