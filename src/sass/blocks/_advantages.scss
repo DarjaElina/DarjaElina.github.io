@@ -8,41 +8,44 @@
         text-align: center;
     }
     &__wrapper {
-        max-width: 749px;
-        display: block;
-        margin: 0 auto;
-    }
-    &__icons {
-        margin-top: 60px;
         display: flex;
-        justify-content: space-between;
+        
+    }
+    &__block {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-    }
-    &__names {
-        margin-top: 35px;
-        display: flex;
-        justify-content: space-between;
         text-align: center;
-        font-size: 18px;
-        font-weight: 700;
-        color: #0d0d0d;
-    }
-    &__descrs {
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 500;
-        color: #0d0d0d;
+        :nth-child(1) {
+            margin-top: 60px;
+        }
+        :nth-child(2) {
+            margin-top: 35px;
+        }
+        :nth-child(3) {
+            margin-top: 20px;
+        }
         a {
             color: #ff0000;
             text-decoration: none;
         }
     }
-    &__descr {
-        max-width: 277px;
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
     }
-    
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    &__icon {
+        &_amimated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
-    

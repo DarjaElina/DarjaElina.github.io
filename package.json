@@ -419,5 +419,8 @@
   "bugs": {
     "url": "https://github.com/DarjaElina/pulse_project/issues"
   },
-  "homepage": "https://github.com/DarjaElina/pulse_project#readme"
+  "homepage": "https://github.com/DarjaElina/pulse_project#readme",
+  "devDependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
